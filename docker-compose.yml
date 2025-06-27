@@ -17,5 +17,6 @@ services:
       - --conf.file=/config/nodeConfig.json
       - --execution.forwarding-target=https://apechain.calderachain.xyz/http
       - --node.feed.input.url=wss://apechain.calderachain.xyz/feed
-      - --parent-chain.connection.url=https://arb1.arbitrum.io/rpc
       - --node.data-availability.rest-aggregator.urls="https://apechain.calderachain.xyz/rest-aggregator"
+      - --parent-chain.connection.url=[Your Arb1 RPC]
+
